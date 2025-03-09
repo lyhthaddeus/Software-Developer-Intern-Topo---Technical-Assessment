@@ -1,7 +1,5 @@
 pandas
 flask
-
-
+flask-cors
 python-pptx
-json
-
+pdfplumber

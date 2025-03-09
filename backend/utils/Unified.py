@@ -14,7 +14,7 @@ def combine_csv(json_file):
     parsed_data = parse_csv(csv_file)
     for company in json_file['companies']:
         if company['name'] == "FitPro":
-            company['activity_data_Jan24'] = parsed_data
+            company['mebership_activity_data'] = parsed_data
     return json_file
 
 def combine_pdf(json_file):
